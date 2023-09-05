@@ -40,3 +40,27 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+/* 
+
+1. Getters for all elements i will need - 
+  1. header 
+  2. logo 
+  3. Section cta
+  4. class cta-text
+  5. class cta-text h1
+  6. cta-text button 
+  7. code snippet img
+  8. class top-content
+  9. img of code snippet across whole screen
+  10. class bottom-content
+  11. section class contact
+
+*/
+let header = document.querySelector('header')
+let logo = document.querySelector('logo-img');
+let cta = document.querySelector('.cta');
+let ctaText = cta.querySelector('.cta-text');
+let mainH1 = ctaText.querySelector('h1');
+let button = ctaText.querySelector('button');
+let img1 = document.querySelector('cta-img');
