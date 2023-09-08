@@ -90,6 +90,12 @@ for (let i = 0; i < navLinks.length; i++) {
   currentNav.textContent = currentIdeal;
 }
 
+// setting nav links to add class italics
+for (let i = 0; i < navLinks.length; i++) {
+  let link = navLinks[i]
+  link.classList.add('italic') 
+}
+
 // setting logo
 logo.src = newLogo;
 
@@ -199,3 +205,11 @@ for ( let i = 0; i < contactPs.length; i++ ) {
   currentP.textContent = currentArray
 }
 
+// get footer
+let footer = document.querySelector('footer')
+let footerLink = footer.querySelector('a')
+let footerContent = siteContent.footer.copyright
+
+// setting footer
+footerLink.textContent = footerContent
+footerLink.classList.add('bold')
