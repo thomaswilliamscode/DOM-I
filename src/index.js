@@ -100,7 +100,7 @@ for (let i = 0; i < navLinks.length; i++) {
 logo.src = newLogo;
 
 // setting up cta h1 and cta Button
-ctaH1.textContent = 'Dom Is Awesome'
+ctaH1.textContent = 'DOM Is Awesome'
 ctaButton.textContent = 'Get Started'
 
 // setting up img1 
